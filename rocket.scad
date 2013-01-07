@@ -14,17 +14,11 @@ module Base() {
 }
 
 module Tube() {
-  difference() {
     cylinder(h=40, r=10);
-    cylinder(h=40, r=7);
-  }
 }
 
 module Cap() {
-  difference() {
     cylinder(h=20, r1=10, r2=2);
-    cylinder(h=17, r1=7, r2=1);
-  }
 }
 
 Base();
